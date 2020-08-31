@@ -668,6 +668,7 @@
 #include "code\FulpstationCode\deputy.dm"
 #include "code\FulpstationCode\dice_fulp.dm"
 #include "code\FulpstationCode\digisuits.dm"
+#include "code\FulpstationCode\e_lasso.dm"
 #include "code\FulpstationCode\fulp_chem_CF_medicines.dm"
 #include "code\FulpstationCode\fulp_chem_CF_reagent_containers.dm"
 #include "code\FulpstationCode\fulp_chem_CF_reagents.dm"

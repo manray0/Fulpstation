@@ -79,3 +79,8 @@
 	projectile_type = /obj/projectile/beam/shrink
 	select_name = "shrink ray"
 	e_cost = 200
+
+/obj/item/ammo_casing/energy/etethercase
+	projectile_type = /obj/projectile/etether
+	select_name = "tether"
+	e_cost = 200
