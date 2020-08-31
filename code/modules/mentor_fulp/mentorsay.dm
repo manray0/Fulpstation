@@ -5,6 +5,11 @@
 		to_chat(src, "<span class='danger'>Error: Only mentors and administrators may use this command.</span>", confidential = TRUE)
 		return
 
+	if(usr.client)
+		if(usr.client.prefs.muted & MUTE_MSAY)
+			to_chat(usr, "<span class='danger'>You cannot msay (muted).</span>", confidential = TRUE)
+			return
+
 	msg = emoji_parse(copytext(sanitize(msg), 1, MAX_MESSAGE_LEN))
 	if(!msg)
 		return
